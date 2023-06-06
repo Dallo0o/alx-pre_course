@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo "input file name"
-read comm
-
-git add .
-git commit -m "${comm}"
-git push
-
